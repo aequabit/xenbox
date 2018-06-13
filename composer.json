@@ -1,0 +1,19 @@
+{
+    "name": "aequabit/xenbox",
+    "description": "Eloquent ORM wrapper for XenForo 1",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "aequabit",
+            "email": "contact@aequabit.de"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "XenBox\\": "src"
+        }
+    },
+    "require": {
+        "illuminate/database": "^5.6"
+    }
+}
